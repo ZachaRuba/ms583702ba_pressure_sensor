@@ -22,12 +22,12 @@
 //
 
 // Factory Calibration Factors
-uint16_t g_u16C1 = 1; // Pressure Sensitivity (SENS)
-uint16_t g_u16C2 = 1; // Pressure Offset (OFF)
-uint16_t g_u16C3 = 1; // Temperature Coefficient of Pressure Sensitivity (TCS)
-uint16_t g_u16C4 = 1; // Temperature Coefficient of Pressure Offset (TCO)
-uint16_t g_u16C5 = 1; // Reference Temperature (Tref)
-uint16_t g_u16C6 = 1; // Temperature Coefficient of the Temperature (TEMPSENS)
+uint16_t g_u16C1; // Pressure Sensitivity (SENS)
+uint16_t g_u16C2; // Pressure Offset (OFF)
+uint16_t g_u16C3; // Temperature Coefficient of Pressure Sensitivity (TCS)
+uint16_t g_u16C4; // Temperature Coefficient of Pressure Offset (TCO)
+uint16_t g_u16C5; // Reference Temperature (Tref)
+uint16_t g_u16C6; // Temperature Coefficient of the Temperature (TEMPSENS)
 
 // RAW Pressure and Temperature Values
 uint32_t g_u32D1; // Digital Pressure Value
